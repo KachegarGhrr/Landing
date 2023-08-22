@@ -1,0 +1,30 @@
+.advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    padding: 10px;
+
+}
+
+.advantages h1 {
+    font-family:  Arial;
+    font-size: 18px;
+    font: bold;
+    text-transform: uppercase;
+
+}
+
+.advantages p   {
+    font-size: 18px;
+    font-style: italic;
+    color: #241d17;
+    line-height: 21px;
+}
+
+.advantages img {
+    width: 300px;
+    border-radius: 10%;
+
+}
