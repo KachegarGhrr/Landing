@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family:  Arial;
+    font: bold;
 }
 
 button {
@@ -7,7 +9,7 @@ button {
     font-size: 18px;
     padding: 12px;
     color: white;
-    background: linear-gradient(to right, #9848f3, #0868f8);
+    background: linear-gradient(to right, var(--color1), var(--color2));
 }
 
 p {

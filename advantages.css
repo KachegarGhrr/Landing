@@ -3,15 +3,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 400px;
     padding: 10px;
+    height: 100vh;
 
 }
 
 .advantages h1 {
-    font-family:  Arial;
-    font-size: 18px;
-    font: bold;
+    font-size: 20px;
     text-transform: uppercase;
 
 }

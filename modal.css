@@ -1,0 +1,45 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+    padding: 10px;
+}
+
+.modal:target {
+    display: block;
+}
+
+.modal a {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 12px;
+    color: white;
+    background: linear-gradient(to right, var(--color1), var(--color2));
+    margin: 15px;
+    width: 200PX;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    padding: 8px 4px 8px 10px;
+    margin-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: white;
+}

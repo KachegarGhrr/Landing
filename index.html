@@ -8,32 +8,77 @@
         <link rel="stylesheet" href="vars.css">
         <link rel="stylesheet" href="menu.css">
         <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="coffee.css">
+        <link rel="stylesheet" href="modal.css">
     </head>
     <body>
         <div>
-            <div class="block block-hero">
+            <div class="block-hero" id="main">
                 <img src="./cup.png" alt="cup">
                 <h1 class="gradient-text">Black Star Coffee</h1>
                 <p class="gradient-text">Привозим вкусный и горячий Кофе за 1 час</p>
-                <button> Скорее заказывай!</button>
+                <a href="#coffee-id"> Скорее заказывай!</a>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Меню</a></li>
-                    <li><a href="#">Доставка</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#advantages-id">Преимущества</a></li>
+                    <li><a href="#coffee-id">Кофе</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </div>
-            <div class="block advantages">
+            <div class="advantages" id="advantages-id">
                 <h1>НАШИ ПРЕИМУЩЕСТВА</h1>
                 <p>Black Star Coffee — это продукт исключительного качества. Это премиум кофе, про который слагают легенды, кофе с уникальным вкусом и ароматом. Наш кофе можно не только пить, но и втирать в кожу.</p>
                 <img src="smith.png" alt="smith">
             </div>
-            <div class="footer">
+            <div class="gradient-coffee">
+                <h1>Выбери кофе ( ͡° ͜ʖ ͡°)</h1>
+            </div>
+            <div class="block-coffee" id="coffee-id">                
+                <div class="coffee">
+                    <img src="coffee/Espresso.png" alt="Espresso">
+                    <div class="coffee-description">
+                        <h2>Эспрессо</h2>
+                        <p>Эспрессо – то, что нужно, если ты хочешь сполна насладиться кофейным вкусом.</p>
+                    </div>
+                </div>
+                <div class="coffee">
+                    <img src="coffee/Americano.png" alt="Americano">
+                    <div class="coffee-description">
+                        <h2>Американо</h2>
+                        <p>Самый простой и классический черный кофе на основе эспрессо. В американо добавляется немного горячей воды.</p>
+                    </div>
+                </div>
+                <div class="coffee">
+                    <img src="coffee/Capuchino.png" alt="Capuchino">
+                    <div class="coffee-description">
+                        <h2>Капучино</h2>
+                        <p>К порции эспрессо добавляют взбитое специальным капучинатором молоко. Сверху образуется объемная пена.</p>
+                    </div>
+                </div>                
+                <div class="coffee">
+                    <img src="coffee/Latte.png" alt="Latte">
+                    <div class="coffee-description">
+                        <h2>Латте</h2>
+                        <p>Латте напоминает капучино, но в нем больше вспененного молока. И если в капучино идет только пена, то в латте есть еще и обычный молочный слой.</p>
+                    </div>
+                </div>
+                <a href="#modal-id"> Сделать заказ</a>
+            </div>
+            <div class="footer" id="contacts">
                 <p class="gradient-footer">Грув-Стрит</p>
                 <p class="gradient-footer"> +7-999-999-9999</p>
             </div>
+            <div class="modal" id="modal-id">
+                <div class="content">
+                    <h2>Какое выбрали кофе?</h2>
+                    <input placeholder="Капучино">
+                    <h2>Укажите ваш номер телефона:</h2>
+                    <input placeholder="+7-999-999-9999">
+                    <a class="order-modal" href="#">Сделать заказ</a>
+                    <a class="back-modal" href="#main">Вернуться на главную</a>
+                </div>
+              </div>
         </div>
     </body>
 </html>
